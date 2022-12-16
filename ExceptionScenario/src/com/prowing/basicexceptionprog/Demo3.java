@@ -4,7 +4,7 @@ public class Demo3 {
 	public static void main(String[] args) {
 		int a[]= {4,2,7,9};
 		try {
-			System.out.println(a[4]=9);
+			System.out.println(a[4]=10);
 		
 		}
 		catch (Exception e) {

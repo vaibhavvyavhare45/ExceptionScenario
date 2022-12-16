@@ -9,9 +9,9 @@ public class Demo5 {
 	public static int extracted() {
 		int res=0;
 		try {
-			res=10/0;
-			System.out.println("gfjj");
 			System.exit(1);
+			System.out.println("gfjj");
+			res=10/0;
 			return 10;	
 		}
 		catch (Exception e) {
